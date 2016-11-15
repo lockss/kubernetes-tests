@@ -13,5 +13,5 @@ this time, it is intended only for getting familiar with Kubernetes.
 
     ```
     cd kubernetes-test
-    docker-compose up
+    sudo docker-compose up
     ```
