@@ -1,0 +1,12 @@
+98c98,106
+<             self.output.write(line)
+---
+>             try:
+>                 self.output.write(line)
+>             except UnicodeEncodeError:
+>                 bytes = line.encode(self.output.encoding, 'backslashreplace')
+>                 if hasattr(self.output, 'buffer'):
+>                     self.output.buffer.write(bytes)
+>                 else:
+>                     line = bytes.decode(self.output.encoding, 'strict')
+>                     self.output.write(text)
