@@ -18,5 +18,5 @@ this time, it is intended only for getting familiar with Kubernetes.
 
 ## References
 
-* Original `docker-compose.yaml` file from a [Cloudgear blog](https://www.cloudgear.net/blog/2015/5-minutes-kubernetes-setup/)
-  with many changes to make it run using the latest etcd, Kubernetes, and Docker components.
+* Original `docker-compose.yaml` file from a [Cloudgear blog](https://www.cloudgear.net/blog/2015/5-minutes-kubernetes-setup/);
+  the changes in our version allow it to run using the latest etcd, Kubernetes, and Docker components.
