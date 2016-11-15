@@ -1,6 +1,6 @@
 ## Introduction
-This is an experimental project to bring up a small Kubernetes cluster using only Docker containers. At
-this time, it is intended only for getting familiar with Kubernetes.
+This is an experimental internal project to bring up a small Kubernetes cluster using only Docker containers. At
+this time, it is intended only for getting familiar with Kubernetes, and as a non-trivial example of Docker Compose.
 
 ## Usage
 1. Install `docker` and `docker-compose`. On ArchLinux systems, run the following command:
