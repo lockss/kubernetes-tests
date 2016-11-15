@@ -15,3 +15,8 @@ this time, it is intended only for getting familiar with Kubernetes.
     cd kubernetes-test
     sudo docker-compose up
     ```
+
+## References
+
+* Original `docker-compose.yaml` file from a [Cloudgear blog](https://www.cloudgear.net/blog/2015/5-minutes-kubernetes-setup/)
+  with many changes to make it run using the latest etcd, Kubernetes, and Docker components.
